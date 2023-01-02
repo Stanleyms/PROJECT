@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./form.js"></script>
+    <script src="https://kit.fontawesome.com/28e999f7d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="begin">
+        <div class="section"><p class="gb">REGISTRATION FORM</p>
+            <table class="table">
+                
+                    <tr>
+                        <td>
+                            <label for="name">NAME:</label>
+
+                        </td>
+                        <td><input type="text" id="ns" placeholder="Enter Your Name">
+
+                        <p id="er" style="color:red ; line-height: 0px;"></p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">EMAIL:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="em" placeholder="Enter Your Email ID">
+                            <p id="ed" style="color:red; line-height: 0px;"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">PASSWORD:</label>
+                        </td>
+                        <td>
+                            <input type="password" id="po" placeholder="Enter Your Password">
+                            <p id="pd" style="color:red; line-height: 0px;"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="num">PHONE NUMBER:</label>
+                        </td>
+                        <td><input type="number" id="numcheck" placeholder="Enter Your Mobile Number">
+                        <p id="pn" style="color:red;line-height: 0px;"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">GENDER:</label>
+                        </td>
+                        <td>MALE<input type="radio" id="gender">
+                        FEMALE<input type="radio" id="gender">
+                            OTHER<input type="radio" id="gender">
+                            <p id="gr" style="color:red; line-height:0px;"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="country">COUNTRY:</label>
+                        </td>
+                        <td>
+                            <select name="country" id="country">
+                                <option value="">Select your country</option>
+                                <option value=" India">India</option>
+                                <option value="America">America</option>
+                                <option value="Africa">Africa</option>
+                                <option value="China">China</option>
+                                <option value="Russia">Russia</option>
+                            </select>
+                            <p id="ctry" style="color: red; line-height: 0px;"></p>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <label for="language">LANGUAGE:</label>
+                        </td>
+                        <td>
+                            <select name="language" id="language">
+                                <option value="">Select your Language</option>
+                                <option value="Tamil">Tamil</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="English">English</option>
+                                <option value="malayalam">malayalam</option>
+                                <option value="french">French</option>
+                            </select>
+                            <p id="lang" style="color: red; line-height:0px;"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date" id="day"> DATE:</label> </td>
+                            <td>
+                            <input type="date" id="day">
+                            <p id="de"></p>
+                        </td>
+                    </tr>
+                
+            </table>
+            <div class="tyh">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">I Accept to these <a href="">terms & conditions</a></label>
+                <p id="cbx" style="color: red; line-height:25px;"></p>
+              
+                
+            </div>
+            
+                <button type="button" class="btt" id="submitform" onclick="valids()">
+                
+            login
+
+                </button>
+         
+            
+            
+        </div>
+    </div>
+    
+</body>
+</html>
